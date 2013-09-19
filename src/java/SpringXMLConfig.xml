@@ -11,9 +11,12 @@
 
     
     <bean id="sound" class="com.learning.spring.Sound" >
-        <constructor-arg ref="dog"></constructor-arg>
+        <constructor-arg ref="cat"></constructor-arg>
     </bean>
     
     <bean id="dog" class="com.learning.spring.Dog"> </bean>
     <bean id="cat" class="com.learning.spring.Cat"> </bean>
+    <bean id="juggler" class="com.learning.manning.Juggler">
+        <constructor-arg value="10"/> 
+    </bean>
 </beans>
