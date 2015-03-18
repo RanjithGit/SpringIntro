@@ -20,4 +20,7 @@ public class Juggler implements Performer{
     	
     }
     
+public void testGita(){
+    	
+    }
 }
