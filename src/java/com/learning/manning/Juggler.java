@@ -16,5 +16,8 @@ public class Juggler implements Performer{
     public void perform() {
         System.out.println("Juggler Says he had "+beanBags+" bean bags");
     }
+    public void testGit(){
+    	
+    }
     
 }
